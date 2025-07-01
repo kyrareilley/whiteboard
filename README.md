@@ -1,2 +1,2 @@
-This is a basic chat application using p5.js.
+This is a basic whiteboard application using p5.js.
 
