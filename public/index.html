@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap");
+    </style>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Questrial&display=swap");
+    </style>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.10.0/p5.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.10.0/addons/p5.sound.min.js"></script>
+    <script src="/socket.io/socket.io.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <meta charset="utf-8" />
+  </head>
+  <body>
+    <h1>Whiteboard</h1>
+    <button id="clearButton">Clear Canvas</button>
+    <button id="penPlus">+</button>
+    <button id="penMinus">-</button>
+    <button id="eraseButton">Erase</button>
+
+    <button id="randomPen" style="background-color: #ffffff">?</button>
+    <button id="blackPen" style="background-color: black"></button>
+    <button id="redPen" style="background-color: #cc2c21"></button>
+    <button id="orangePen" style="background-color: #f29b29"></button>
+    <button id="greenPen" style="background-color: #1d9932"></button>
+    <button id="bluePen" style="background-color: #3a80e8"></button>
+    <button id="purplePen" style="background-color: #bc6ceb"></button>
+    <button id="pinkPen" style="background-color: #ed9ac4"></button>
+
+    <main></main>
+    <script src="sketch.js"></script>
+  </body>
+</html>
